@@ -32,7 +32,7 @@ const Stats = () => {
         queryKey: ["stats"],
         queryFn: () =>
             getAllHandler(
-                `http://localhost:3000/api/v1/admin/stats`
+                `https://demo-mern-job-portal-server-kappa.vercel.app/api/v1/admin/stats`
             ),
     });
 

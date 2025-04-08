@@ -55,7 +55,7 @@ const AddJob = () => {
         // posting;
         try {
             const response = await axios.post(
-                "http://localhost:3000/api/v1/jobs",
+                "https://demo-mern-job-portal-server-kappa.vercel.app/api/v1/jobs",
                 newJob,
                 {
                     withCredentials: true,
